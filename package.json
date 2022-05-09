@@ -1,0 +1,33 @@
+{
+  "name": "blindmexxen",
+  "version": "1.0.0",
+  "description": "## Table of Contents - [Synopsis](#synopsis) - [Description](#description) - [Communication](#communication) - [Goals](#goals) - [Grading](#grading) - [Programme](#programme)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server/app.js",
+    "ndmStart": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuckelkorn/BlindMexxen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuckelkorn/BlindMexxen/issues"
+  },
+  "homepage": "https://github.com/Kuckelkorn/BlindMexxen#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
